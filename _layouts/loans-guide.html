@@ -1,0 +1,16 @@
+---
+layout: wrapper
+categories: 'loans'
+tags: 'Loans'
+---
+
+<ul>
+  {% for guide in site.guides %}
+    <li><a href="{{ guide.url }}">{{ guide.title }}</a></li>
+  {% endfor %}
+</ul>
+
+<p>{{ page.tags }}</p>
+<h2>{{ page.title }}</h2>
+
+{{ content }}
