@@ -24,4 +24,3 @@ markdown: kramdown
 theme: minima
 plugins:
 - jekyll-feed
-collections_dir: collections
