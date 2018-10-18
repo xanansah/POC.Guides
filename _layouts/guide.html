@@ -1,0 +1,13 @@
+---
+layout: "wrapper"
+---
+
+<ul>
+  {% for guide in site.guides %}
+    <li><a href="{{ guide.url }}">{{ guide.title }}</a></li>
+  {% endfor %}
+</ul>
+
+<h2>{{ page.title }}</h2>
+
+{{ content }}
