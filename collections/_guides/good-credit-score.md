@@ -1,5 +1,6 @@
 ---
+title: What is a Good Credit Score
 layout: guide
-title:  "What is a Good Credit Score"
-categories: "free-credit-report"
+categories: free-credit-report
 ---
+

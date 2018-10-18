@@ -1,5 +1,6 @@
 ---
+title: The Shared Ownership Scheme
 layout: guide
-title:  "The Shared Ownership Scheme"
-categories: "mortgages"
+categories: mortgages
 ---
+

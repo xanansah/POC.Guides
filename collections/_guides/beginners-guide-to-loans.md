@@ -1,5 +1,6 @@
 ---
+title: A Beginner's Guide to Loans
 layout: guide
-title:  "A Beginner's Guide to Loans"
-categories: "loans"
+categories: loans
 ---
+

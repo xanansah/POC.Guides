@@ -2,6 +2,10 @@
 title: Your awesome title
 timezone: UTC
 collections:
+  guides:
+    title: Guides
+    output: true
+    permalink: "/:categories/:title/"
   posts:
     title: Posts
     output: true
@@ -19,22 +23,5 @@ github_username: jekyll
 markdown: kramdown
 theme: minima
 plugins:
-  - jekyll-feed
-
+- jekyll-feed
 collections_dir: collections
-collections:
-  guides:
-    output: true
-    permalink: '/:categories/:title/'
-
-# Exclude from processing.
-# The following items will not be processed, by default. Create a custom list
-# to override the default setting.
-# exclude:
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
