@@ -5,6 +5,8 @@
     <title>{{ site.title }} | {{ page.title }}</title>
   </head>
   <body>
-    {{ content }}
+    {% includes header.html %}
+      {{ content }}
+    {% includes footer.html %}
   </body>
 </html>
