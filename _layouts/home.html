@@ -1,17 +1,5 @@
 {% include header.html %}
 
-<ul>
-  {% for page in site.pages %}
-    {% if page.title contains "Credit Report" %}
-    <li><a href="{{ page.url }}">{{ page.title }}</a></li>
-    {% elsif page.title contains "Credit Cards" %}
-    <li><a href="{{ page.url }}">{{ page.title }}</a></li>
-    {% elsif page.title contains "Loans" %}
-    <li><a href="{{ page.url }}">{{ page.title }}</a></li>
-    {% elsif page.title contains "Mortgages" %}
-    <li><a href="{{ page.url }}">{{ page.title }}</a></li>
-    {% endif %}
-  {% endfor %}
-</ul>
+{% include guide-select.html %}
 
 {% include footer.html %}
